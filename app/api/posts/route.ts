@@ -10,7 +10,7 @@ const ALLOWED_ORIGINS = [
   "https://www.ieumnaru.co.kr"
 ];
 
-function corsHeaders(request: NextRequest) {
+function corsHeaders(request: NextRequest): Record<string, string> {
   const origin = request.headers.get("origin");
   if (origin && ALLOWED_ORIGINS.includes(origin)) {
     return {
