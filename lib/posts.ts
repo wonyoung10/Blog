@@ -41,9 +41,9 @@ export async function getPublicPosts(query?: string) {
           ? [
               {
                 OR: [
-                  { title: { contains: query } },
-                  { subtitle: { contains: query } },
-                  { excerpt: { contains: query } }
+                  { title: { contains: query, mode: "insensitive" as const } },
+                  { subtitle: { contains: query, mode: "insensitive" as const } },
+                  { excerpt: { contains: query, mode: "insensitive" as const } }
                 ]
               }
             ]

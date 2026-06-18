@@ -13,9 +13,6 @@ export function Shell({ children }: { children: ReactNode }) {
             <Link className="rounded-md px-3 py-2 hover:bg-[#eee8df]" href="/">
               공개 블로그
             </Link>
-            <Link className="rounded-md px-3 py-2 hover:bg-[#eee8df]" href="/admin">
-              관리자
-            </Link>
           </nav>
         </div>
       </header>

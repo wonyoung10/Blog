@@ -1,0 +1,142 @@
+/* 메인 사이트 블로그 페이지용 최소 스타일 — 메인 사이트 디자인에 맞게 자유롭게 수정하세요. */
+.blog-wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.blog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e5ded2;
+  padding-bottom: 20px;
+  margin-bottom: 28px;
+}
+
+.blog-head h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.blog-search {
+  border: 1px solid #d7cec0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  min-width: 220px;
+}
+
+.blog-muted {
+  color: #6b7280;
+  padding: 24px 0;
+}
+
+.blog-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+
+.blog-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ece6da;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.15s ease;
+}
+.blog-card-link:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+.blog-card-cover,
+.blog-article-cover {
+  width: 100%;
+  aspect-ratio: 16 / 8;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-card-body {
+  padding: 18px 20px;
+}
+
+.blog-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #b4541f;
+}
+
+.blog-card-title {
+  margin: 8px 0 0;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.blog-card-sub,
+.blog-card-excerpt {
+  margin: 8px 0 0;
+  color: #53606d;
+  line-height: 1.6;
+}
+
+.blog-back {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4b7a52;
+  text-decoration: none;
+}
+
+.blog-article-cover {
+  border-radius: 12px;
+  margin-top: 24px;
+}
+
+.blog-article-head {
+  border-bottom: 1px solid #e5ded2;
+  padding-bottom: 28px;
+  margin-top: 28px;
+}
+
+.blog-article-title {
+  margin: 12px 0 0;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.blog-article-sub {
+  margin: 16px 0 0;
+  font-size: 20px;
+  color: #53606d;
+}
+
+.blog-content {
+  margin-top: 32px;
+  line-height: 1.8;
+  font-size: 17px;
+}
+.blog-content img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.blog-content pre {
+  background: #1e1e1e;
+  color: #eee;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.blog-content h2 {
+  margin-top: 36px;
+}
